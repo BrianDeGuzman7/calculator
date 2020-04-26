@@ -1,4 +1,6 @@
-# todo_list
-Simple, Effective, and Clean To-Do List 
+# Calculator
+Simple Calculator 
+
+Practicing JS, HTML, and CSS
 
 Created By: Brian De Guzman
