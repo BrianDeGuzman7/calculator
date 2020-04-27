@@ -1,25 +1,55 @@
 body {
     background-color: black;
     color: white;
-    font-family: Verdana;
-    font-size: 2rem;
+    font-family: Helvetica;
+
+}
+
+button {
+    font-family: Helvetica;
+    color: white;
+    font-size: 2em;
+    border: 1px solid black;
+    padding: 10px 10px;
 }
 
 .container-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    font-size: 2em;
+    text-align: center;
+    background-color: black;
+}
+
+#out {
+    grid-column: 4;
+    font-size: 1em;
 }
 
 .container {
     display: grid;
-    background-color: grey;
-    grid-template-columns: repeat(3, 2em);
-    grid-template-rows: repeat(3, auto);
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     /* justify-content: space-evenly;
-    align-content: space-evenly; */
-    align-items: stretch;
+    align-items: stretch; */
 }
 
-button {
-    font-family: Verdana;
-    font-size: 2rem;
+.opsT  {
+    background-color: #d4d4d2;
+    color: black;
 }
+
+.num {
+    background-color: #505050;
+}
+
+.ops {
+    background-color: #ff9500
+}
+
+.zero {
+    grid-column: 1/3;
+}
+

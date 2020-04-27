@@ -9,41 +9,35 @@
             <p id="out">0</p>
         </div>
         <div class="container">
-            <div class="num">
-                <button type="button" value="1" onclick="display(0)">1</button>
-            </div>
-            <div class="num">
-                <button type="button" value="2" onclick="display(1)">2</button>
-            </div>
-            <div class="num">
-                <button type="button" value="3" onclick="display(2)">3</button>
-            </div>
-            <div class="num">
-                <button type="button" value="4" onclick="display(3)">4</button>
-            </div>
-            <div class="num">
-                <button type="button" value="5" onclick="display(4)">5</button>
-            </div>
-            <div class="num">
-                <button type="button" value="6" onclick="display(5)">6</button>
-            </div>
-            <div class="num">
-                <button type="button" value="7" onclick="display(6)">7</button>
-            </div>
-            <div class="num">
-                <button type="button" value="8" onclick="display(7)">8</button>
-            </div>
-            <div class="num">
-                <button type="button" value="9" onclick="display(8)">9</button>
-            </div>
-            <div class="num">
-                <button type="button" value="0" onclick="display(9)">0</button>
-            </div>
-        </div>
+            <button class="opsT" type="button" onclick="wipe()">AC</button>
+            <button class="opsT" type="button" onclick="neg()">+/-</button>
+            <button class="opsT" type="button" onclick="div100()">%</button>
 
-        <div class="container-bottom">
-            <button type="button" onclick="add()">+</button>
-        </div> 
+            <button class="ops" type="button" onclick="div()">/</button>
+
+            <button class="num" type="button" value="7" onclick="display(4)">7</button>
+            <button class="num" type="button" value="8" onclick="display(5)">8</button>
+            <button class="num" type="button" value="9" onclick="display(6)">9</button>
+ 
+            <button class="ops" type="button" onclick="mul()">*</button>
+
+        
+            <button class="num" type="button" value="4" onclick="display(8)">4</button>
+            <button class="num" type="button" value="5" onclick="display(9)">5</button>
+            <button class="num" type="button" value="6" onclick="display(10)">6</button>
+           
+            <button class="ops" type="button" onclick="sub()">-</button>
+
+            <button class="num" type="button" value="1" onclick="display(12)">1</button>
+            <button class="num" type="button" value="2" onclick="display(13)">2</button>
+            <button class="num" type="button" value="3" onclick="display(14)">3</button>
+    
+            <button class="ops" type="button" onclick="add()">+</button>
+
+            <button class="num zero" type="button" value="0" onclick="display(16)">0</button>
+            <button class="num" type="button" onclick="dec()">.</button>
+            <button class="ops" type="button" onclick="equal()">=</button>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
