@@ -41,12 +41,26 @@ button {
     color: black;
 }
 
+.opsT:active  {
+    background-color: #ebebe7;
+    color: black;
+
+}
+
 .num {
     background-color: #505050;
 }
 
+.num:active {
+    background-color: #646363;
+}
+
 .ops {
-    background-color: #ff9500
+    background-color: #ff9500;
+}
+
+.ops:active {
+    background-color: #ffb44b;
 }
 
 .zero {

@@ -1,6 +1,6 @@
 # Calculator
 Simple Calculator 
-
-Practicing JS, HTML, and CSS
-
-Created By: Brian De Guzman
+By: Brian De Guzman
+- Re-created Apple Calculator
+- All Buttons work
+- No Keyboard input functionality yet 
