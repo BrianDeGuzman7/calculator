@@ -2,5 +2,6 @@
 Simple Calculator 
 By: Brian De Guzman
 - Re-created Apple Calculator
-- All Buttons work
+- Basic Calulator Functionality 
+- Errors found when calculating decimal numbers
 - No Keyboard input functionality yet 
